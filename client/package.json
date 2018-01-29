@@ -1,0 +1,52 @@
+{
+  "name": "goodreadbooks",
+  "version": "1.0.0",
+  "description": "App to search books from goodreadbooks",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
+    "start": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000/",
+  "keywords": [
+    "goodreadbooks",
+    "searchbooks",
+    "books"
+  ],
+  "author": "salman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "history": "^1.17.0",
+    "react": "^16.2.0",
+    "react-dnd": "^2.5.4",
+    "react-dnd-html5-backend": "^2.5.4",
+    "react-dom": "^16.2.0",
+    "react-draggable": "^3.0.5",
+    "react-immutable-proptypes": "^2.1.0",
+    "react-loading": "^1.0.3",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-prop-types": "0.0.3",
+    "react-scripts": "^1.1.0",
+    "react-star-rating-component": "^1.3.0",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}

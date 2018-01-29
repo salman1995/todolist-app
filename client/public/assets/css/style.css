@@ -1,0 +1,75 @@
+footer{
+	width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #000;
+    color:  #fff;
+    padding: 5px;
+}
+.container-heading{
+    padding: 10px;
+    background-color: #00564e;
+    width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+}
+
+header .input-group {
+    padding-top: 3px !important;
+}
+.todoItem{
+    font:18px 'Gloria Hallelujah', cursive; 
+	line-height:1.5;
+	border:0;
+	border-radius:3px;
+	background: -webkit-linear-gradient(#F9EFAF, #F7E98D);
+	background: -moz-linear-gradient(#F9EFAF, #F7E98D);
+	background: -o-linear-gradient(#F9EFAF, #F7E98D);
+	background: -ms-linear-gradient(#F9EFAF, #F7E98D);
+	background: linear-gradient(#F9EFAF, #F7E98D);
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+    float: left;
+    width: 100%;
+}
+.input-group-btn .btn-default:hover{
+        color: #ffffff;
+    background-color: #3fb618 !important;
+    border-color: #3fb618 !important;
+}
+.todoItem button{
+    margin: 3px;
+    padding: 6px 10px !important;
+    font-size: 12px;
+}
+.todoItem textarea{
+    border:0;
+	border-radius:3px;
+	background: -webkit-linear-gradient(#F9EFAF, #F7E98D);
+	background: -moz-linear-gradient(#F9EFAF, #F7E98D);
+	background: -o-linear-gradient(#F9EFAF, #F7E98D);
+	background: -ms-linear-gradient(#F9EFAF, #F7E98D);
+	background: linear-gradient(#F9EFAF, #F7E98D);
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+
+}
+.removeList{
+    cursor: pointer;
+    color: red;
+}
+.navbar-inverse {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+.todoActions{
+    font-size: 18px;
+    color: #565656;
+    padding: 3px;
+    cursor: pointer;
+}
+.todoDetails{
+    background-color: #f3edc5;
+    padding: 10px;
+}
