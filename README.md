@@ -1,9 +1,13 @@
-# goodreadbooks-react-redux
-Simple Application that helps you to search books from goodreadbooks api, built on react-redux platform with node-express backend.
+# todolist-app
+## React-Redux + Node-Express + MongoDb
+This Application will let you create different categories lists to manage your tasks and you can add tasks to any categorories list, moreover tasks can be edited and moved to fifent lists by simple drang and drop feature.
 ## Installation
 1) Download/Clone the repository 
 2) Open cmd and run "npm install" to install required dependencies.
 3) Goto client folder and repeat the same step as Step # 2.
+## Configuration
+1) Open server.js and replace the mongodb connect url as per your database configuration.
+2) Open client/config/index.js and edit api urls as per your server url
 ## Running Server
 Go to root  run "npm run start" in cmd.
 ## Running Client
